@@ -17,6 +17,10 @@ const URLS = [
   "https://cdn.adinack.dev/self-portraits/IMG_7059.png",
   "https://cdn.adinack.dev/self-portraits/IMG_7418.png",
   "https://cdn.adinack.dev/self-portraits/IMG_8754.png",
+  "https://cdn.adinack.dev/self-portraits/IMG_1272.png",
+  "https://cdn.adinack.dev/self-portraits/IMG_6360.png",
+  "https://cdn.adinack.dev/self-portraits/IMG_7098.png",
+  "https://cdn.adinack.dev/self-portraits/IMG_8385.png",
 ];
 
 var img = document.getElementById("portrait");
