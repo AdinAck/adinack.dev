@@ -37,7 +37,7 @@ So I'm making a new language for describing a device's peripherals, which I gues
 
 Let's take a peak at what it looks like:
 
-### Modelling Language
+### Modeling Language
 
 > I have already made a tree-sitter module for syntax highlighting and a fully functioning LSP, niether of which I have
 > time to figure out how to embed in this site, so please use your imagination for the colors!
@@ -176,7 +176,7 @@ error[E1001]: fields `arg` and `arg0` overlap, occupying 0..=15
 
 In this case, two fields `arg` and `arg0` are what I call **superpositioned**. Field superpositioning is when multiple
 fields *physically* occupy overlapping regions of a register (in this case `0..=31` overlaps with `0..=15`). This is
-a surprisingly common occurrence in peripherals, and as far as I know has never been modelled properly before.
+a surprisingly common occurrence in peripherals, and as far as I know has never been modeled properly before.
 
 This diagnostic is telling us that the fields have ontological entitlement spaces that *intersect* (in other words,
 do *not* contradict) meaning the model is expressing that there exists a state set of the fields `cordic.csr.argsize`
